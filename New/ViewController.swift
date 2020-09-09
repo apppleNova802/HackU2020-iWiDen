@@ -165,7 +165,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
                                          target: language,
                                          text: name)
     let translator = ROGoogleTranslate()
-    translator.apiKey = "AIzaSyC9SLDtujW9SxV6cC8SB3_1JXKLLKPCmow"
+    translator.apiKey = "MYKEY"
     translator.translate(params: params) { (result) in
         DispatchQueue.main.async {
             self.translation = "\(result)"
@@ -180,7 +180,7 @@ class ViewController: UIViewController, UIImagePickerControllerDelegate,
                                          target: "ja",
                                          text: name)
     let translator = ROGoogleTranslate()
-    translator.apiKey = "AIzaSyC9SLDtujW9SxV6cC8SB3_1JXKLLKPCmow"
+    translator.apiKey = "MYKEY"
     translator.translate(params: params) { (result) in
         DispatchQueue.main.async {
             self.jptranslation = "\(result)"
