@@ -1,0 +1,30 @@
+PODS:
+  - Alamofire (5.1.0)
+  - ROGoogleTranslate (0.0.5)
+  - SDWebImage (5.7.2):
+    - SDWebImage/Core (= 5.7.2)
+  - SDWebImage/Core (5.7.2)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - ROGoogleTranslate
+  - SDWebImage
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ROGoogleTranslate
+    - SDWebImage
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: 9d5c5f602928e512395b30950c5984eca840093c
+  ROGoogleTranslate: 344d579487c21af1ae54138baa68605b861ba84e
+  SDWebImage: d9ea4959d99c52276dfada481987018fcaea3d58
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 71c6114169cedfbcb305a7252ae111c3b9322046
+
+COCOAPODS: 1.9.3
